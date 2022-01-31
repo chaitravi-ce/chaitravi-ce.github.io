@@ -12,13 +12,13 @@
 }
 
 [data-theme="dark"] {
-    --font-color: #bcaca5;
-    --background-color: #292a2c;
+    --font-color: black;
+    --background-color: #68483f;
     --background-nav: #68483f;
-    --link-color: #bcaca5;
+    --link-color: black;
     --font-primary: 'Playfair Display';
     --font-secondary: 'Lato';
-    --hero: url('../../assets/flower.jpg')
+    --hero: url('../../assets/dark.jpg')
 }
 
 body {
