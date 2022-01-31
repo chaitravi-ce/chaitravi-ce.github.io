@@ -1,0 +1,31 @@
+.hero {
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  background-image: var(--hero)
+}
+
+.main-text{
+  font-family: 'Lato', sans-serif;
+  color: var(--font-color);
+  padding-left: 10%;
+  padding-top: 6%;
+  padding-right: 65%;
+  font-size: x-large;
+}
+
+@media only screen and (max-width: 800px) {
+  /* For mobile phones: */
+  .main-text{
+    padding-top: 6%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  /* For mobile phones: */
+  .main-text{
+    font-size: large;
+  }
+}
