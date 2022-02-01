@@ -13,10 +13,10 @@
 }
 
 [data-theme="dark"] {
-    --font-color: black;
+    --font-color: whitesmoke;
     --background-color: #68483f;
     --background-nav: #68483f;
-    --link-color: black;
+    --link-color: whitesmoke;
     --font-primary: 'Playfair Display';
     --font-secondary: 'Lato';
     --social-background: #d0c4c4;
@@ -88,7 +88,7 @@ a {
 
 input:checked + .slider:before {
     transform: translateX(26px);
-    background-color: black;
+    background-color: #333;
 }
   
 input:checked + .slider {

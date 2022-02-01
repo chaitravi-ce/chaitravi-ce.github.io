@@ -1,0 +1,8 @@
+.exp h1{
+    font-size: 40px;
+    padding-left: 4%;
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+    background-color: var(--background-nav);
+}
+

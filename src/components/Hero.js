@@ -7,11 +7,11 @@ const HeroCommon = () => {
     <div className="hero">
       <Navbar />
       <div className="socials column">
-        <a href="#"><i class="fa fa-facebook"></i></a>
-        <a href="#"><i class="fa fa-inbox"></i></a>
-        <a href="#"><i class="fa fa-instagram"></i></a>
-        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="mailto:cnchalke_b19@el.vjti.ac.in"><i class="fa fa-inbox"></i></a>
+        <a href="https://www.linkedin.com/in/chaitravi-chalke-6b4806190/"><i class="fa fa-linkedin"></i></a>
         <a href="https://github.com/chaitravi-ce"><i class="fa fa-github-alt"></i></a>
+        <a href="https://twitter.com/Chaitravi_ce"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/chaitravi_ce25/"><i class="fa fa-instagram"></i></a>
       </div>
       <div className="main-text column">
         <h1>Hi, I'm Chaitravi Chalke</h1>

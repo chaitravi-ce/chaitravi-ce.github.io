@@ -1,12 +1,14 @@
 import React from "react";
 import './App.css';
 import HeroCommon from './components/Hero'
+import Experience from "./components/Experience";
 
 function App() {
   return (
     <div className="App">
       {/* <NavBar /> */}
       <HeroCommon />
+      <Experience />
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
         elit, sed do eiusmod tempor incididunt ut labore et 
         dolore magna aliqua. Ut enim ad minim veniam, quis 
