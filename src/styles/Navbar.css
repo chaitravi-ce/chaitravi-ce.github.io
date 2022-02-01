@@ -15,20 +15,17 @@ h4{
     font-size: 30px;
 }
 
-ul{
-    justify-content: space-evenly;
-    display: flex;
-    padding: 45px 0% 10px 0%;
-    list-style-type: none;
-}
-
 .toggle{
     padding-top: 55px;
 }
 
-li{
-    padding-right: 15px;
-    padding-left: 15px;
+.navMenu{
+    padding-top: 60px;
+}
+
+a{
+    padding-right: 20px;
+    padding-left: 20px;
     font-family: var(--font-primary);
     font-size: 18px;
     font-weight: 200;
@@ -38,13 +35,9 @@ a:link{
     text-decoration: none;
 }
 
-/* .nav-link{
-    background-color: yellow;
-} */
-
 @media only screen and (max-width: 650px) {
     /* For mobile phones: */
-    .nav-link{
+    .navMenu{
         display: none;
     }
 
@@ -52,3 +45,65 @@ a:link{
         padding-left: 1px;
     }
 }
+  
+.navMenu a {
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+  
+.navMenu a:hover {
+    color: #f2d9b9;
+}
+  
+.navMenu .dot {
+    width: 6px;
+    height: 6px;
+    background: #f2d9b9;
+    border-radius: 50%;
+    opacity: 0;
+    /* -webkit-transform: translateX(700px);
+    transform: translateX(700px); */
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+  
+.navMenu a:nth-child(1):hover ~ .dot {
+    -webkit-transform: translateX(40px);
+    transform: translateX(40px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+}
+  
+.navMenu a:nth-child(2):hover ~ .dot {
+    -webkit-transform: translateX(150px);
+    transform: translateX(150px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+}
+  
+.navMenu a:nth-child(3):hover ~ .dot {
+    -webkit-transform: translateX(270px);
+    transform: translateX(270px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+}
+  
+.navMenu a:nth-child(4):hover ~ .dot {
+    -webkit-transform: translateX(370px);
+    transform: translateX(370px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+}
+
+.navMenu a:nth-child(5):hover ~ .dot {
+    -webkit-transform: translateX(460px);
+    transform: translateX(460px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+}
+

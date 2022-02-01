@@ -8,6 +8,7 @@
     --link-color: #68483f;
     --font-primary: 'Playfair Display';
     --font-secondary: 'Lato';
+    --social-background: #eee3e1;
     --hero: url('../../assets/flower.jpg')
 }
 
@@ -18,6 +19,7 @@
     --link-color: black;
     --font-primary: 'Playfair Display';
     --font-secondary: 'Lato';
+    --social-background: #d0c4c4;
     --hero: url('../../assets/dark.jpg')
 }
 
@@ -99,4 +101,17 @@ input:checked + .slider {
   
 .slider.round:before {
     border-radius: 50%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background:  #a68a7d;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #bcaca5
 }
