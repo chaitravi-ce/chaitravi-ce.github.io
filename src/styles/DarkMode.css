@@ -3,6 +3,7 @@
 
 :root{
     --font-color: #68483f;
+    --font-sec: black;
     --background-color: #eee;
     --background-nav: #bcaca5;
     --link-color: #68483f;
@@ -10,17 +11,20 @@
     --font-secondary: 'Lato';
     --social-background: #eee3e1;
     --hero: url('../assets/light.jpg');
+    --projects: url('../assets/project-light.png');
 }
 
 [data-theme="dark"] {
     --font-color: whitesmoke;
-    --background-color: #68483f;
+    --font-sec: whitesmoke;
+    --background-color: #8e8483;
     --background-nav: #68483f;
     --link-color: whitesmoke;
     --font-primary: 'Playfair Display';
     --font-secondary: 'Lato';
     --social-background: #d0c4c4;
-    --hero: url('../assets/dark.jpg')
+    --hero: url('../assets/dark.jpg');
+    --projects: url('../assets/project-dark.png');
 }
 
 body {
