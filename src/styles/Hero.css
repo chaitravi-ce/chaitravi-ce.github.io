@@ -4,33 +4,41 @@
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
-  background-image: var(--hero)
+  background-image: var(--hero);
+}
+
+.landing{
+  display: flex;
 }
 
 .main-text{
   font-family: 'Lato', sans-serif;
   color: var(--font-color);
   padding-left: 5%;
-  padding-top: 6%;
+  padding-top: 5rem;
   font-size: x-large;
   color: #68483f;
   width: 360px;
 }
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   /* For mobile phones: */
   .main-text{
     font-size: large;
-    align-self: center;
-    align-items: center;
-    text-align: left;
-    /* padding-right: 20%; */
-    /* padding-left: 10%; */
-    padding: 15vh 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 0 !important;
+    padding: 0px 0px 0px 0px;
+    margin-top: 5rem !important;
+    margin-right: 3rem !important;
   }
 
   .socials{
-    visibility: collapse;
+    visibility: collapse !important;
+    margin-left: 0%;
+    padding-left: 0px !important;
+    /* display: none; */
   }
 }
 
@@ -46,7 +54,7 @@ a:-webkit-any-link:focus-visible {
   flex-wrap: wrap;
   padding-left: 8%;
   width: 50px;
-  padding-top: 8%;
+  padding-top: 6rem;
 }
 
 .fa{

@@ -19,7 +19,7 @@
 
 .card__image {      
     width: 100%;
-    height: 40vh;
+    height: 38vh;
     background-color: var(--font-color);
     background-size: cover;
     background-color: #ececef;
@@ -78,7 +78,8 @@
     height: 60px;      
     border-radius: 50%;  
     /* background-image: url("../../assets/iit.png");    */
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
   
 .card__title {
