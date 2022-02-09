@@ -6,7 +6,7 @@
     );
     backdrop-filter: blur(6px);
     border-radius: 12px;
-    width: 300px;
+    width: 280px;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     padding: 50px;
@@ -15,7 +15,18 @@
     position: relative;
     margin-top: 3rem;
     transition: transform 700ms ease-out;
-    margin-right: 5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+    .panel{
+        width: 180px;
+    }
+
+    .button{
+        margin-left: 150px !important;
+    }
 }
 
 .panel::before {
@@ -46,7 +57,7 @@ h2 {
 }
   
 .card__text {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.45;
     opacity: 0.8;
     margin-bottom: 2em;

@@ -13,3 +13,35 @@
 .projectCards{
     display: flex;
 }
+
+.rec-arrow{
+    background-color: var(--font-color);
+}
+
+/* .rec-arrow:hover{
+    background-color: var(--font-color);
+    color: black;
+} */
+
+.rec.rec-arrow:enabled:hover {
+    color: black;
+    background-color: var(--font-color);
+}
+
+.rec.rec-arrow:enabled{
+    background-color: rgba(var(--font-color), 0.3);
+}
+
+.rec.rec-arrow:disabled {
+    visibility: hidden;
+}
+
+.rec.rec-dot.rec-dot_active{
+    background-color: var(--font-color);
+    box-shadow: 0 0 1px 3px var(--font-color);
+}
+
+.rec.rec-dot:hover{
+    cursor: pointer;
+    box-shadow: 0 0 1px 3px var(--font-color);
+}
