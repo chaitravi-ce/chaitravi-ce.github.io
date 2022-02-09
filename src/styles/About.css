@@ -1,0 +1,55 @@
+.about{
+    padding-top: 2%;
+    padding-bottom: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-left: 0px !important;
+    height: initial;
+}
+
+h3{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0%;
+}
+
+h5{
+    font-size: 16px;
+    padding: 0%;
+    margin: 1rem;
+}
+
+.sicons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.skillset{
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap !important;
+}
+
+.fd{
+    padding: 20px;
+    font-size: 30px;
+    /* margin-bottom: 0%; */
+    width: 30px;
+    height: 30px;
+    box-shadow: 3px 3px 6px #b8b9be, -3px -3px 9px #fff;
+    border-color: #ced4da !important;
+    background: var(--social-background);
+    text-align: center;
+    border-radius: 50%;
+    transition: .5s;
+    background-color: var(--background-color) !important;
+}
+
+.fd:hover{
+    transform: scale(1.3);
+    transition: .4s;
+}
