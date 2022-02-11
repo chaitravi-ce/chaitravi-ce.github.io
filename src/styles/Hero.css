@@ -67,7 +67,7 @@ a:-webkit-any-link:focus-visible {
   margin: 8px;
   width: 20px;
   height: 20px;
-  box-shadow: 3px 3px 6px #b8b9be, -3px -3px 9px #fff;
+  box-shadow: 3px 3px 6px var(--soc-one), -3px -3px 9px var(--soc-two);
   border-color: #ced4da !important;
   background: var(--social-background);
   text-align: center;

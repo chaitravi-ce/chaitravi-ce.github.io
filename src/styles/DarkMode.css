@@ -12,6 +12,10 @@
     --social-background: #eee3e1;
     --hero: url('../assets/light.jpg');
     --projects: url('../assets/project-light.png');
+    --neuo-one: #b8b9be;
+    --neuo-two: #fff;
+    --soc-one: #b8b9be;
+    --soc-two: #fff;
 }
 
 [data-theme="dark"] {
@@ -25,6 +29,10 @@
     --social-background: #d0c4c4;
     --hero: url('../assets/dark.jpg');
     --projects: url('../assets/project-dark.png');
+    --neuo-one: #583d36;
+    --neuo-two: #785348;
+    --soc-one: #b1a7a7;
+    --soc-two: #efe1e1;
 }
 
 body {
