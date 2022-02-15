@@ -18,10 +18,10 @@ const NavBar = () => {
                 <h4>Chaitravi Chalke</h4>
             </div>
             <nav className='navMenu'>
-                <a href="#">Home</a>
-                <a href="#">Experience</a>
-                <a href="#">Projects</a>
-                <a href="#">About</a>
+                <a href="/">Home</a>
+                <a href="/experience">Experience</a>
+                <a href="/projects">Projects</a>
+                <a href="/about">About</a>
                 {/* <a href="#">Contact</a> */}
                 <div className="dot"></div>
             </nav>

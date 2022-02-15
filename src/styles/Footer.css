@@ -27,5 +27,18 @@
     list-style-type: none;
     margin: 0;
     padding: 0%;
-    font-size: 24px;
+    font-size: 20px;
+}
+
+a.soc{
+    padding-right: 0;
+    padding-left: 0;
+    font-family: var(--font-primary);
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+h2.foot{
+    font-family: var(--font-primary);
+    font-weight: 300 !important;
 }

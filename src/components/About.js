@@ -45,7 +45,7 @@ const About = () => {
                     I'm curious about the world of arts and culture, and I'm especially interested in dance and design.
                 </p>
                 <div className='resume'>
-                    <button class="noselect">Resume</button>
+                    <a href="https://drive.google.com/file/d/1FupOomBBNNV5x1E9uHVrlVP6VWdjcfhy/view?usp=sharing/"><button class="noselect">Resume</button></a>
                 </div>
             </div>
         </div>
