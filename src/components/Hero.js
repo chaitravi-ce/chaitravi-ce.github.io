@@ -4,7 +4,7 @@ import "../styles/Hero.css"
 
 const HeroCommon = () => {
   return (
-    <div className="hero">
+    <div className="hero" id="home">
       <Navbar />
       <div className="landing">
         <div className="socials">

@@ -13,16 +13,6 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <div className="App">
-      {/* <Navbar /> */}
-      {/* <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" exact component={HeroCommon}/>
-          <Route path="/experience" component={Experience}/>
-          <Route path="/projects" component={Projects}/>
-          <Route path="/about" component={About}/>
-        </Routes>
-      </Router> */}
       <HeroCommon />
       <Experience />
       <Projects />

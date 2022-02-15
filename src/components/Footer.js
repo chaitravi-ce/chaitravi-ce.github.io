@@ -1,4 +1,8 @@
 import '../styles/Footer.css'
+import HeroCommon from './Hero';
+import Experience from './Experience';
+import Projects from './Projects';
+import About from './About';
 
 const Footer = () => {
     return(
@@ -16,10 +20,10 @@ const Footer = () => {
             <div className='pages'>
                 <h2 className='foot'>Pages</h2>
                 <ul className='ul'>
-                    <li><a className='soc'>Home</a></li>
-                    <li><a className='soc'>Experience</a></li>
-                    <li><a className='soc'>Projects</a></li>
-                    <li><a className='soc'>About</a></li>
+                    <li><a className='soc' href="/#home">Home</a></li>
+                    <li><a className='soc' href="/#experience">Experience</a></li>
+                    <li><a className='soc' href="/#projects">Projects</a></li>
+                    <li><a className='soc' href="/#about">About</a></li>
                 </ul>
             </div>
         </div>

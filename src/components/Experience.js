@@ -12,7 +12,7 @@ import magnesBack from '../assets/magnes-back.png'
 
 const Experience = () => {
     return(
-        <div className="exp">
+        <div className="exp" id="experience">
             <h1>Experience</h1>
             <div className='grid'>
                 <Grid container spacing={4} >
