@@ -12,10 +12,13 @@
     --social-background: #eee3e1;
     --hero: url('../assets/light.jpg');
     --projects: url('../assets/project-light.png');
+    --logo : url("../assets/logo.png");
     --neuo-one: #b8b9be;
     --neuo-two: #fff;
     --soc-one: #b8b9be;
     --soc-two: #fff;
+    --about: #eee;
+    --resume: #333;
 }
 
 [data-theme="dark"] {
@@ -29,10 +32,13 @@
     --social-background: #d0c4c4;
     --hero: url('../assets/dark.jpg');
     --projects: url('../assets/project-dark.png');
-    --neuo-one: #583d36;
-    --neuo-two: #785348;
+    --logo : url("../assets/logo-dark.png");
+    --neuo-one: #2b2b2b;
+    --neuo-two: #3b3b3b;
     --soc-one: #b1a7a7;
     --soc-two: #efe1e1;
+    --about: #333;
+    --resume: #bcaca5;
 }
 
 body {

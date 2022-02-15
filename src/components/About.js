@@ -36,6 +36,18 @@ const About = () => {
                     {/* <Skill class="fa-solid fa-clapperboard fd" title="Video Editing" /> */}
                 </div>
             </div>
+            <div className='myself'>
+                <h3>About Me</h3>
+                <p className='info'>I am Chaitravi Chalke, a student at Veermata Jijabai Technological Institute (VJTI), Mumbai.
+                    Currently, I am pursuing my Bachelor's Degree in Electronics Engineering. I am enthusiastic about learning 
+                    about new technologies and developing solutions to make our lives easier. Other than that I am also interested 
+                    in exploring the world of arts and culture, particularly passionate about dance and craft. Aside from that, 
+                    I'm curious about the world of arts and culture, and I'm especially interested in dance and design.
+                </p>
+                <div className='resume'>
+                    <button class="noselect">Resume</button>
+                </div>
+            </div>
         </div>
     );
 }

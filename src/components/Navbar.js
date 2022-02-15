@@ -22,7 +22,7 @@ const NavBar = () => {
                 <a href="#">Experience</a>
                 <a href="#">Projects</a>
                 <a href="#">About</a>
-                <a href="#">Contact</a>
+                {/* <a href="#">Contact</a> */}
                 <div className="dot"></div>
             </nav>
             <div className='toggle'>
