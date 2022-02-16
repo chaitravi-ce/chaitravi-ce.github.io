@@ -14,10 +14,10 @@ const Skill = (props) => {
 const About = () => {
     return(
         <div className='about' id="about">
-            <h1>About</h1>
+            <h1 data-aos="fade-up" data-aos-duration="2000">About</h1>
             <div className='skills'>
-                <h3>Skills</h3>
-                <div className='sicons'>
+                <h3 data-aos="fade-up" data-aos-duration="2100">Skills</h3>
+                <div className='sicons' data-aos="fade-up">
                     <Skill class="fa-solid fa-chart-pie fd" title="Data Science" />
                     <Skill class="fa-solid fa-brain fd" title="Deep Learning" />
                     <Skill class="fa-brands fa-android fd" title="Flutter" />
@@ -37,11 +37,11 @@ const About = () => {
                 </div>
             </div>
             <div className='myself'>
-                <h3>About Me</h3>
-                <p className='info'>I am Chaitravi Chalke, a student at Veermata Jijabai Technological Institute (VJTI), Mumbai.
-                    Currently, I am pursuing my Bachelor's Degree in Electronics Engineering. I am enthusiastic about learning 
-                    about new technologies and developing solutions to make our lives easier. Other than that I am also interested 
-                    in exploring the world of arts and culture, particularly passionate about dance and craft. Aside from that, 
+                <h3 data-aos="fade-up" data-aos-duration="2100">About Me</h3>
+                <p className='info' data-aos="fade-up" >I am Chaitravi Chalke, a student at Veermata 
+                    Jijabai Technological Institute (VJTI), Mumbai. Currently, I am pursuing my Bachelor's 
+                    Degree in Electronics Engineering. I am enthusiastic about learning about new technologies 
+                    and developing solutions to make our lives easier. Aside from that, 
                     I'm curious about the world of arts and culture, and I'm especially interested in dance and design.
                 </p>
                 <div className='resume'>

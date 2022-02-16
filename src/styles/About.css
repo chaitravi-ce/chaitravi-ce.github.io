@@ -154,7 +154,7 @@ button {
     align-self: center;
 	font-family: var(--font-primary), serif;
 	color: var(--resume);
-	font-size: 20px;
+	font-size: 24px;
 	border-radius: 4px;
 	box-shadow: inset 0px 3px 5px rgba(255,255,255,0.5), 0px 0px 10px rgba(0,0,0,0.15);
 	background: rgb(2,0,36);

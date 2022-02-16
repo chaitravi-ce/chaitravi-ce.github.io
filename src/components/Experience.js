@@ -12,9 +12,9 @@ import magnesBack from '../assets/magnes-back.png'
 
 const Experience = () => {
     return(
-        <div className="exp" id="experience">
-            <h1>Experience</h1>
-            <div className='grid'>
+        <div className="exp" id="experience" >
+            <h1 data-aos="fade-up" data-aos-duration="1000">Experience</h1>
+            <div data-aos="fade-up" className='grid'>
                 <Grid container spacing={4} >
                     <Grid item xs={12} md={3} sm={6}>
                         <Cards 

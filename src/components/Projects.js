@@ -12,8 +12,8 @@ const breakPoints = [
 const Projects = () => {
     return(
         <div className='projects' id="projects">
-            <h1>Projects</h1>
-            <div className='projectCards'>
+            <h1 data-aos="fade-up" data-aos-duration="1000">Projects</h1>
+            <div className='projectCards' data-aos="fade-up">
                 <Carousel breakPoints={breakPoints} 
                 enableAutoPlay autoPlaySpeed={6000}
                 > 
