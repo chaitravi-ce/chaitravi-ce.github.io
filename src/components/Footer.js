@@ -1,8 +1,8 @@
 import '../styles/Footer.css'
-import HeroCommon from './Hero';
-import Experience from './Experience';
-import Projects from './Projects';
-import About from './About';
+// import HeroCommon from './Hero';
+// import Experience from './Experience';
+// import Projects from './Projects';
+// import About from './About';
 
 const Footer = () => {
     return(
@@ -29,7 +29,7 @@ const Footer = () => {
                 </div>
             </div>
             <hr />
-            <h3 className='footNote'>Template By Chaitravi Chalke</h3>
+            <h3 className='footNote'>© Copyright 2022 Chaitravi Chalke.</h3>
         </div>
     );
 }

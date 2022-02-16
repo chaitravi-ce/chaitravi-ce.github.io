@@ -1,23 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import '../styles/Navbar.css'
 import DarkMode from './DarkMode';
-import SideDrawer from "./NavLink";
-import HeroCommon from './Hero';
-import Experience from './Experience';
-import Projects from './Projects';
-import About from './About';
 
 const NavBar = () => {
 
-    const [sideDrawerOpen, setSideDrawerOpen] = useState(false);
-
-    const handleDrawerToggleClick = () => {
-        setSideDrawerOpen((prevDrawerState) => !prevDrawerState);
-    };
-
     return(
         <div className='navbar'>
-            {/* <SideDrawer show={sideDrawerOpen} /> */}
             <div className='name'>
                 <h4>Chaitravi Chalke</h4>
             </div>
