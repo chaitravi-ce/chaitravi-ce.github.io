@@ -17,6 +17,29 @@ const Projects = () => {
                 <Carousel breakPoints={breakPoints} 
                 enableAutoPlay autoPlaySpeed={6000}
                 > 
+                    {/* <ProjectCard 
+                        title="SCAN-Net: The DL Network"
+                        desc="Designed a "
+                        link="https://github.com/Nirikshak-IndiSafe"
+                    /> */}
+                    <ProjectCard 
+                        title="Nirikshak - The Police App"
+                        desc="An Application to track police officers who are deployed to Bandobast Duty using the Location Tracker. It was also linked
+                        to an Admin Website which can be used to analyze the realtime situation of the event and manage it"
+                        link="https://github.com/Nirikshak-IndiSafe"
+                    />
+                    <ProjectCard 
+                        title="Mess Management System"
+                        desc="A comprehensive solution for hostel mess management at the Digital Campus Hackathon. The solution includes two mobile 
+                        apps (Hostel Student App and Hostel Admin App) and a website to make the entire process seamless and efficient."
+                        link="https://github.com/ACT-SUS"
+                    />
+                    <ProjectCard 
+                        title="GE Customer Support Chatbot"
+                        desc="Our team secured the first place in the GE HACK-E-LTH'23 Hackathon by developing a customer support chatbot 
+                        using RASA. This project involved incorporating image analysis and integrating the service with WhatsApp."
+                        link="https://github.com/utsavk28/GE-Healthcare"
+                    />
                     <ProjectCard 
                         title="Edge Detection Using ML"
                         desc="Implementation of Dense Extreme Inception Network (DexiNed) architeture from scratch using TensorFlow and 
@@ -43,29 +66,11 @@ const Projects = () => {
                         link="https://github.com/chaitravi-ce/Image-Processing-Algorithms"
                     />
                     <ProjectCard 
-                        title="ESP32-S2 PCB Design"
-                        desc="A KiCAD based 4-layer PCB Design of the ESP32-S2 board. It is an open-source ESP32-S2 board with breakout ports 
-                        for both USB-A and USB-C type. It also includes Neopixel and LiPo Charging Section"
-                        link="https://github.com/dhairyashah1/USBee32-S2"
-                    />
-                    <ProjectCard 
                         title="Real-Time Pose Estimation App"
                         desc="Flutter based app which estimates poses of humans from a live feed in real-time using the PoseNet Model 
                         of Google ML Kit. It compares the pose coordinates to a predefined pose coordinate using the 
                         cosine-distance algorithm."
                         link="https://github.com/chaitravi-ce/PoseNet_App"
-                    />
-                    <ProjectCard 
-                        title="Share-A-Taxi Pooling App"
-                        desc="App created using Flutter and Firebase, connecting passengers travelling to similar destinations. Includes features 
-                        such as Chat-Section, Bill Splitter, Fare Calculator, Google Map Location API based data storage."
-                        link="https://github.com/chaitravi-ce/Share_A_Taxi"
-                    />
-                    <ProjectCard 
-                        title="Pointer Calculator App"
-                        desc="A dual Theme based Pointer Calculator App with elegant UI created using Flutter. It will calculate your CGPA 
-                        based on the grades you have recieved in subjects and the credits corresponding to that subject"
-                        link="https://github.com/chaitravi-ce/Theme-Switcher-App-Flutter"
                     />
                 </Carousel>
             </div>
